@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #131518;
+  font-family: "Overpass", sans-serif;
+}
+
+.main_div {
+  max-width: 412px;
+  width: 100%;
+  min-height: 416px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-radius: 30px;
+  background: radial-gradient(#232a34, #181e27);
+  padding: 30px 30px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.oval_star {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #262e38;
+}
+
+.txt_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.txt_h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: white;
+}
+
+.txt_p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #969fad;
+}
+
+.oval_nums_div {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 25px;
+}
+
+.oval_num {
+  max-width: 51px;
+  width: 100%;
+  min-height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #262e38;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #7c8798;
+}
+
+.oval_num:hover {
+  background-color: #7c8798;
+  color: white;
+  cursor: pointer;
+}
+
+.oval_num:active {
+  background-color: #fc7614;
+  cursor: pointer;
+  color: white;
+}
+
+.btn {
+  width: 100%;
+  min-height: 45px;
+  background-color: #fc7614;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  border-radius: 22.5px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #fc7614;
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  body {
+    padding: 25px;
+  }
+}
