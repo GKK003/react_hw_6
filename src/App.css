@@ -96,6 +96,13 @@ body {
   color: white;
 }
 
+.oval_num_selected,
+.oval_num_selected:hover,
+.oval_num_selected:active {
+  background-color: #fc7614;
+  color: white;
+}
+
 .btn {
   width: 100%;
   min-height: 45px;
