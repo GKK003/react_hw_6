@@ -24,6 +24,7 @@ body {
   padding: 30px 30px;
   flex-direction: column;
   gap: 40px;
+  position: relative;
 }
 
 .oval_star {
@@ -158,6 +159,19 @@ body {
   letter-spacing: 0;
   color: #969fad;
   text-align: center;
+}
+
+.back {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.back:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 450px) {

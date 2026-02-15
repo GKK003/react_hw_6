@@ -5,7 +5,7 @@ import Star from "./assets/Star.png";
 import TextDiv from "./components/__molecules/text_div/textdiv";
 import Pay from "./assets/pay.png";
 import ThanksDiv from "./components/__molecules/text_div/thankstxt";
-
+import Backimg from "./assets/back.png";
 function App() {
   const [div, setDiv] = useState("none");
   const [main, setMain] = useState("flex");
@@ -82,6 +82,14 @@ function App() {
           <p className="review_p">You selected {num1} out of 5</p>
         </div>
         <ThanksDiv />
+        <img
+          className="back"
+          src={Backimg}
+          onClick={() => {
+            setDiv("none");
+            setMain("flex");
+          }}
+        />
       </div>
     </>
   );
