@@ -9,7 +9,7 @@ import Backimg from "./assets/back.png";
 function App() {
   const [div, setDiv] = useState("none");
   const [main, setMain] = useState("flex");
-  const [num1, setNum1] = useState(null);
+  const [num1, setNum1] = useState();
 
   return (
     <>
@@ -88,6 +88,7 @@ function App() {
           onClick={() => {
             setDiv("none");
             setMain("flex");
+            setNum1("");
           }}
         />
       </div>
