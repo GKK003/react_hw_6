@@ -114,6 +114,52 @@ body {
   cursor: pointer;
 }
 
+.pay_img {
+  max-width: 162px;
+  width: 100%;
+  height: 108px;
+}
+
+.review {
+  background-color: #262e38;
+  border-radius: 22.5px;
+  max-width: 193px;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.review_p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fc7614;
+}
+
+.thanks_h1 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: white;
+  text-align: center;
+}
+
+.thanks_p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #969fad;
+  text-align: center;
+}
+
 @media (max-width: 450px) {
   body {
     padding: 25px;
