@@ -185,4 +185,8 @@ body {
   body {
     padding: 25px;
   }
+
+  .oval_nums_div {
+    gap: 10px;
+  }
 }
